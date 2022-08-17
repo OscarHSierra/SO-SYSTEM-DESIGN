@@ -65,7 +65,7 @@ function calcular(){
         num=w2*k.value;
         s=2*w*ro;
         r.innerHTML="El diseño calculado es: "+"<br/>"+"ro= "+ ro.toFixed(2) +"  w= "+ w.toFixed(2) + "<br/>"+"Con polos en "+ "s= "+ (-ro*w).toFixed(2) + " ± " +(w*Math.sqrt(1- ro*ro)).toFixed(2) +" j "  ; 
-        im.innerHTML="La funcion de transferencia diseñada es: "+"<br/>"+"<br/>"+num.toFixed(2)  +"<br/>"+"G(s)=   -------------------------------------------------------"+"<br/>"+"                                    "+ "s^2 + "+ s.toFixed(2) +" s + "+ w2.toFixed(2)
+        im.innerHTML="La funcion de transferencia diseñada es: "+"<br/>"+"<br/>"+num.toFixed(2)  +"<br/>"+"G(s)=   ------------------------------------------"+"<br/>"+"                                    "+ "s^2 + "+ s.toFixed(2) +" s + "+ w2.toFixed(2)
     
 
     }
